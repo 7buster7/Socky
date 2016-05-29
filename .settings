@@ -12,8 +12,8 @@ Geometry=[0,2,224,280]
 Geometry=[14,16,224,280]
 
 [OpenFile]
-Active=1
-File[1]=".src/FMain.class:34.25"
+Active=2
+File[1]=".src/FMain.class:21.15"
 File[2]=".src/FMain.form"
 Count=2
 

@@ -4,24 +4,33 @@
   MoveScaled(0,0,112,76)
   { TabStrip1 TabStrip
     MoveScaled(1,1,110,74)
-    Count = 4
+    Count = 5
     Index = 0
     Text = ("Add Product")
     Picture = Picture["icon:/32/add"]
     { barcodeBox TextBox
       MoveScaled(11,1,46.4286,5)
     }
-    { Label1 Label
-      MoveScaled(1,1,10,5)
-      Text = ("Barcode:")
+    { nameBox TextBox
+      MoveScaled(11,6.7143,46.4286,5)
     }
     { descriptionBox TextBox
       MoveScaled(11,12.4286,46.4286,5)
+    }
+    { categoryBox TextBox
+      MoveScaled(11,18.1429,46.4286,5)
+    }
+    { quantityBox TextBox
+      MoveScaled(11,23.8571,46.4286,5)
     }
     { Button1 Button
       MoveScaled(95,63,13,5)
       Text = ("Submit")
       Picture = Picture["icon:/32/apply"]
+    }
+    { Label1 Label
+      MoveScaled(1,1,10,5)
+      Text = ("Barcode:")
     }
     { Label3 Label
       MoveScaled(1,12.4286,10,5)
@@ -31,12 +40,6 @@
       MoveScaled(1,7,10,5)
       Text = ("Name:")
     }
-    { nameBox TextBox
-      MoveScaled(11,6.7143,46.4286,5)
-    }
-    { categoryBox TextBox
-      MoveScaled(11,18.1429,46.4286,5)
-    }
     { Label4 Label
       MoveScaled(1,18.1429,10,5)
       Text = ("Category:")
@@ -44,9 +47,6 @@
     { Label5 Label
       MoveScaled(1,24,10,5)
       Text = ("Quantity:")
-    }
-    { quantityBox TextBox
-      MoveScaled(11,23.8571,46.4286,5)
     }
     Index = 1
     Text = ("Search")
@@ -57,6 +57,16 @@
     Index = 3
     Text = ("Order Tracking")
     Picture = Picture["icon:/64/package"]
+    Index = 4
+    Text = ("Config")
+    Picture = Picture["icon:/32/wizard"]
+    { ComboBox1 ComboBox
+      MoveScaled(26,4,39,4)
+    }
+    { Label6 Label
+      MoveScaled(4,4,15,4)
+      Text = ("Devices")
+    }
     Index = 0
   }
 }
