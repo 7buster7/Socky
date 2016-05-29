@@ -1,2 +1,2 @@
-# Socky
+# Stocky
 Stock Taking
