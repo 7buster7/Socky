@@ -1,2 +1,9 @@
 ' Gambas module file
 
+Public Sub SetupGrid(grid As GridView)
+Grid.Columns.Count = 6
+grid.Columns[0].Width = 50
+Grid.Columns[1].Width = 50
+grid.Columns[2].Width = 50
+
+End

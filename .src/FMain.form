@@ -51,6 +51,9 @@
     Index = 1
     Text = ("Search")
     Picture = Picture["icon:/64/find"]
+    { GridView1 GridView
+      MoveScaled(2,2,106,66)
+    }
     Index = 2
     Text = ("Totals")
     Picture = Picture["icon:/64/edit"]

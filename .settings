@@ -1,6 +1,5 @@
 [Breakpoints]
-Count=1
-Breakpoint[1]="FMain.21"
+Count=0
 
 [DebugWindow]
 Count=0
@@ -12,10 +11,11 @@ Geometry=[0,2,224,280]
 Geometry=[14,16,224,280]
 
 [OpenFile]
-Active=2
-File[1]=".src/FMain.class:21.15"
+Active=3
+File[1]=".src/FMain.class:29.17"
 File[2]=".src/FMain.form"
-Count=2
+Count=3
+File[3]=".src/Module.module:0.9"
 
 [Watches]
 Count=0

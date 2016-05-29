@@ -14,6 +14,8 @@ Public Sub Form_Open() ' When form opens this event is triggered running the cod
   
   datacon.Open() ' Open database to program.
   barcodeBox.SetFocus
+  
+  Module.SetupGrid(GridView1)
 End
 
 Public Sub Button1_Click() ' When "Submit" button is clicked run the code below
