@@ -38,3 +38,13 @@ Public Sub Button1_Click() ' When "Submit" button is clicked run the code below
    Print Error.Text
     
 End
+
+Public Sub TabStrip1_Click()
+Dim Items As Result
+
+  If TabStrip1.Index = 1
+    Items = datacon.Find("products") 
+    Module.FillGrid(GridView1, Items)
+  Endif  
+
+End
